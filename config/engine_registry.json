@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-CONTROL-MVP",
+      "name": "Deterministic control sanity engine",
+      "category": "control-calculation",
+      "version": "stdlib",
+      "capabilities": [
+        "first-order response",
+        "proportional closed loop",
+        "stability sanity"
+      ],
+      "limitations": [
+        "not HIL",
+        "minimal model",
+        "not physical test"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "PYTHON-CONTROL",
+      "name": "python-control",
+      "category": "control-simulation",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "state-space",
+        "transfer functions",
+        "control analysis"
+      ],
+      "limitations": [
+        "availability not verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}
