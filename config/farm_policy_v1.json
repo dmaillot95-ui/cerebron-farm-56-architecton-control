@@ -1,0 +1,12 @@
+{
+  "farm_id": 56,
+  "name": "ARCHITECTON CONTROL Ω",
+  "domain": "control-systems",
+  "status": "SCAFFOLDED",
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "SIMULATION != HIL",
+    "SIL != HIL",
+    "MODEL STABILITY != PHYSICAL VALIDATION"
+  ]
+}
